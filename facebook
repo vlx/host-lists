@@ -12,5 +12,5 @@ instagram(static-)?([a-z]|a\.akamaihd)\.facebook\.[a-z.]{2,7}$
 instagram # sliding match
 whatsapp\.[a-z.]{2,7}$
 m\.me$
-messenger.com$
+messenger.com
 mqtt-mini.facebook.com
