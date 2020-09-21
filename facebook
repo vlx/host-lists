@@ -1,16 +1,4 @@
-messenger.com### Facebook block ############################################################
-\.fb$
-(fb|fbcdn|fbsbx|tfbnw|facebook|freebasics|internet|messenger)\.[a-z.]{2,7}$
-facebook\.com\.edge(key|suite)\.net$
-fborigin\.[a-z.]{2,7}$
-fbsx\.com.online-metrix\.[a-z.]{2,7}$
-facebook-web-clients.appspot\.[a-z.]{2,7}$
-fbcdn-profile-[a-z].akamaihihd\.[a-z.]{2,7}$
-instagram\.[a-z.]{2,7}$
-cdninstagram\.[a-z.]{2,7}$
-instagram(static-)?([a-z]|a\.akamaihd)\.facebook\.[a-z.]{2,7}$
-instagram # sliding match
-whatsapp\.[a-z.]{2,7}$
-m\.me$
+#
 messenger.com
 mqtt-mini.facebook.com
+edge-chat.facebook.com
