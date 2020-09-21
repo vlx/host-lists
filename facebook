@@ -1,4 +1,4 @@
-### Facebook block ############################################################
+messenger.com### Facebook block ############################################################
 \.fb$
 (fb|fbcdn|fbsbx|tfbnw|facebook|freebasics|internet|messenger)\.[a-z.]{2,7}$
 facebook\.com\.edge(key|suite)\.net$
@@ -12,3 +12,4 @@ instagram(static-)?([a-z]|a\.akamaihd)\.facebook\.[a-z.]{2,7}$
 instagram # sliding match
 whatsapp\.[a-z.]{2,7}$
 m\.me$
+messenger.com$
