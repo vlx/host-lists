@@ -13,3 +13,4 @@ instagram # sliding match
 whatsapp\.[a-z.]{2,7}$
 m\.me$
 messenger.com$
+mqtt-mini.facebook.com
