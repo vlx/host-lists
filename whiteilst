@@ -1,0 +1,34 @@
+# Whitelist Xbox services to enable achievements (Minecraft)
+# Sources:
+# http://kamilslab.com/2016/03/16/how-to-whitelist-xbox-live-on-pi-hole/
+# https://github.com/deathbybandaid/pihole-whitelists/blob/master/XboxAchievements.txt
+# https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+#
+# To add those domains to pi-hole whitelist, combine them on a single line, separated by SPACE
+attestation.xboxlive.com
+cert.mgt.xboxlive.com
+clientconfig.passport.net
+client-s.gateway.messenger.live.com
+ctldl.windowsupdate.com
+def-vef.xboxlive.com
+device.auth.xboxlive.com
+eds.xboxlive.com
+eu-v20.events.data.microsoft.com
+help.ui.xboxlive.com
+licensing.xboxlive.com
+notify.xboxlive.com
+settings-win.data.microsoft.com
+title.auth.xboxlive.com
+title.mgt.xboxlive.com
+us-v20.events.data.microsoft.com
+v10.events.data.microsoft.com
+v10.vortex-win.data.microsoft.com
+v20.events.data.microsoft.com
+www.msftncsi.com
+www.xboxlive.com
+xbox.ipv6.microsoft.com
+xboxexperiencesprod.experimentation.xboxlive.com
+xflight.xboxlive.com
+xkms.xbolive.com
+xkms.xboxlive.com
+xsts.auth.xboxlive.com
