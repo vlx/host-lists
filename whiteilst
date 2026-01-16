@@ -1,20 +1,30 @@
-# Whitelist Xbox services to enable achievements (Minecraft)
 # Sources:
+# https://gist.github.com/shanselman/9f5aba4abc8c3263f1e158edbeff5447
 # http://kamilslab.com/2016/03/16/how-to-whitelist-xbox-live-on-pi-hole/
-# https://github.com/deathbybandaid/pihole-whitelists/blob/master/XboxAchievements.txt
 # https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
-#
-# To add those domains to pi-hole whitelist, combine them on a single line, separated by SPACE
+# https://github.com/deathbybandaid/pihole-whitelists/blob/master/XboxAchievements.txt 
+# Whitelist Xbox services to enable achievements (Minecraft)
 assets1.xboxlive.com
 attestation.xboxlive.com
+az416426.vo.msecnd.net
+browser.pipe.aria.microsoft.com
+c.bing.com
+c.msn.com
+c1.microsoft.com
+cdn-gl.imrworldwide.com
 cert.mgt.xboxlive.com
-clientconfig.passport.net
+ceuswatcab01.blob.core.windows.net
+ceuswatcab02.blob.core.windows.net
 client-s.gateway.messenger.live.com
+clientconfig.passport.net
 ctldl.windowsupdate.com
+dc.services.visualstudio.com
 def-vef.xboxlive.com
 device.auth.xboxlive.com
 displaycatalog.mp.microsoft.com
 dl.delivery.mp.microsoft.com
+eaus2watcab01.blob.core.windows.net
+eaus2watcab02.blob.core.windows.net
 eds.xboxlive.com
 eu-v20.events.data.microsoft.com
 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
@@ -24,9 +34,12 @@ help.ui.xboxlive.com
 ipv6.msftncsi.com
 licensing.xboxlive.com
 minecraftprod.rtep.msgamestudios.com
-msftncsi.com
 mobile.pipe.aria.microsoft.com
+msftncsi.com
+nexusrules.officeapps.live.com
 notify.xboxlive.com
+oca.telemetry.microsoft.com
+otf.msn.com
 settings-win.data.microsoft.com
 sls.update.microsoft.com.akadns.net
 title.auth.xboxlive.com
@@ -34,8 +47,16 @@ title.mgt.xboxlive.com
 us-v20.events.data.microsoft.com
 v10.events.data.microsoft.com
 v10.vortex-win.data.microsoft.com
+v10c.vortex-win.data.microsoft.com
 v20.events.data.microsoft.com
+v20.vortex-win.data.microsoft.com
+vortex.data.microsoft.com
+watson.telemetry.microsoft.com
+wdcp.microsoft.com
+wdcpalt.microsoft.com
 web.vortex.data.microsoft.com
+weus2watcab01.blob.core.windows.net
+weus2watcab02.blob.core.windows.net
 www.msftncsi.com
 www.xboxlive.com
 xbox.ipv6.microsoft.com
