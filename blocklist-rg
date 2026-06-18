@@ -20,6 +20,6 @@
 (^|\.)adsdkprod\.azureedge\.net$
 (^|\.)dtasrvr\.com$
 (^|\.)taboola\.com$
-(^|\.)html-load\.com$
+(^|\.).*\.html-load\.com$
 (^|\.)flashb\.id$
 (^|\.)rewardingfill\.com$
