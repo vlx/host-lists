@@ -1,4 +1,4 @@
-(^|\.)[0-9]+\.duhrawhide\.com$
+(^|\.)[A-Za-z0-9.-]*duhrawhide\.com$
 (^|\.)lijit\.com$
 (^|\.)brame-gamification\.com$
 (^|\.)smartadserver\.com$
@@ -12,14 +12,24 @@
 (^|\.)sparteo\.com$
 (^|\.)aditude\.io$
 (^|\.)privacy-center\.org$
-(^|\.)[0-9]+\.drawbut\.com$
+(^|\.)[A-Za-z0-9.-]*drawbut\.com$
 (^|\.)piano\.io$
 (^|\.)c-i\.as$
 (^|\.)kobel\.services$
 (^|\.)kameleoon\.eu$
 (^|\.)adsdkprod\.azureedge\.net$
 (^|\.)dtasrvr\.com$
-(^|\.)taboola\.com$
-(^|\.).*\.html-load\.com$
+
+# Taboola (multi-level)
+(^|\.)[A-Za-z0-9.-]*taboola\.com$
+
+# html-load.com (multi-level)
+(^|\.)[A-Za-z0-9.-]*html-load\.com$
+
 (^|\.)flashb\.id$
 (^|\.)rewardingfill\.com$
+
+# Additional domains you said still pass through:
+(^|\.)[A-Za-z0-9.-]*bidder\.taboola\.com$
+(^|\.)fwmrm\.net$
+(^|\.)analytics\.google\.com$
